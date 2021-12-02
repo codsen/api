@@ -1,0 +1,3 @@
+# codsen api
+
+This is a makeshift API - a single source of truth to GET-request from. For example, we have a JSON which contains a list of all dedicated npm package web apps and quick playgrounds on codsen.com. That data is used both in README.md files published on the same npm packages (inviting people to visit web apps/playground, if package has one) or on the codsen.com itself and possibly one day on Roy's personal website too.
