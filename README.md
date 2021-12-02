@@ -1,3 +1,8 @@
 # codsen api
 
-This is a makeshift API - a single source of truth to GET-request from. For example, we have a JSON which contains a list of all dedicated npm package web apps and quick playgrounds on codsen.com. That data is used both in README.md files published on the same npm packages (inviting people to visit web apps/playground, if package has one) or on the codsen.com itself and possibly one day on Roy's personal website too.
+This is a makeshift API - a single source of truth to GET-request from using Axios etc.
+
+| JSON File    | Contents |
+| ------------ | -------- |
+| webapps.json | List of all npm packages which have dedicated website GUI or at least a playground on codsen.com |
+| esmBump.json | The last version of our npm packages before turning them to ES Modules (package.json `"type": "module"`) |
